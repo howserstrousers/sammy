@@ -82,21 +82,60 @@
 	
 		.samnav{
 			margin:0 auto;
-			width:50%;
-			border: .5px solid rgb(0,0,204);
+			margin-top: 25%;
+			margin-left: 5%;
+			z-index: -1000;
+			position: fixed;
 		}
 
 		.homelogo{
 			font-family: 'Heebo', sans-serif;
 			font-weight: 700;
-			font-size: 10rem;
+			font-size: 6rem;
 			margin: 0 auto;
 			color:white;
 			opacity: .7;
-			text-align: center;
+			text-align: left;
+			margin-bottom: 2%;
+			line-height: 1rem;
+			
 		}
 
-	}
+		.about{
+			margin:0 auto;
+			margin-top: 10%;
+			width: 90%;
+		}
+
+		.text{
+			margin: 0 auto;
+			font-family: 'Heebo', sans-serif;
+			text-transform: uppercase;
+			font-weight: 500;
+			color:white;
+			opacity: .7;
+			font-size: 1.5rem;
+			line-height: 1.3rem;
+			text-align: left;
+		}
+
+		.about p{
+			line-height: 2.5rem;
+		}
+
+		.contact{
+			position:fixed;
+			margin-left: 5%;
+
+		}
+
+		.email{
+			margin-top:60%;
+		}
+
+		.phone{
+ 
+		}
 
 
 /*TABLET*/
