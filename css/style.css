@@ -88,10 +88,11 @@
 		}
 	
 		.saman{
-			border:.7px solid white;
-			padding: 0;
+			margin: 0 auto;
 			width:100%;
-			height:auto;
+			height:350px;
+			position:absolute;
+			z-index:-1000;
 		}
 
 		@keyframes logoanimation{
@@ -103,8 +104,11 @@
 			100% {left:0%; color:color:#6b2027;}
 			*/
 
-			0% {left:0%;top:0%;color:#6b2027;}
-			25%{left:85%;color:rgb(178,54,54);}
+			0% {left:0%;top:0%;}
+			25%{left:85%;top:0%;}
+			50%{left:85%;top:100%;}
+			75%{left:0%;top:100%;}
+			100%{left:0%;top:0%;}
 			
 		}		
 
@@ -113,11 +117,11 @@
 			font-weight: 700;
 			color:#6b2027;
 			line-height: 0px;
-			top:0;
 			position:relative;
-			animation-name: logoanimation;
-			animation-duration: 8s;
-			animation-iteration-count:infinite;
+			-webkit-animation-name: logoanimation;
+			-webkit-animation-duration: 16s;
+			-webkit-animation-iteration-count:infinite;
+			-webkit-animation-timing-function: linear;
 			
 		}
 
@@ -134,20 +138,22 @@
 			color:#6b2027;
 			font-size: 1.5rem;
 			line-height: 1.3rem;
-			text-align: left;
+			
 		}
 
 		.about p{
 			line-height: 2.5rem;
+
 		}
 
 		.contact{
 			position:fixed;
-			margin-top: 40%;
+			top: 340px;
+			text-align: left;
 		}
 
 		.email{
-			margin-top:60%;
+
 		}
 
 		.phone{
