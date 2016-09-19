@@ -81,34 +81,49 @@
 		}
 
 		.container{
-			margin: 0 auto;
-			width: 100%;
-			height:100%;
+			margin: 0;
+			padding: 0;
+			height:auto;
+			width: auto;
 		}
 	
-		.samnav{
-			width: 90%;
-			margin:0 auto;
-			margin-top: 25%;
-			margin-left: 2.5%;
+		.saman{
 			border:.7px solid white;
+			padding: 0;
+			width:100%;
+			height:auto;
 		}
 
+		@keyframes logoanimation{
+			/*
+			0% {left:0%;top:0%;right:100%;bottom:100%;color:color:#6b2027;}
+			25%{left:100%;top:0%;right:0%;bottom:100%; color:rgb(178,54,54);}
+			50%{left:100%;top:100%;right:0%; bottom:0%; color:#6b2027;}
+			75%{left:0%; top:100%; right:100%; bottom:0%; color:rgb(178,54,54);}
+			100% {left:0%; color:color:#6b2027;}
+			*/
+
+			0% {left:0%;top:0%;color:#6b2027;}
+			25%{left:85%;color:rgb(178,54,54);}
+			
+		}		
+
 		.homelogo{
-			margin: 0 auto;
-			text-align: left;
 			font-family: 'Heebo', sans-serif;
 			font-weight: 700;
-			font-size: 6rem;
 			color:#6b2027;
-			line-height: 1rem;
+			line-height: 0px;
+			top:0;
 			position:relative;
+			animation-name: logoanimation;
+			animation-duration: 8s;
+			animation-iteration-count:infinite;
+			
 		}
 
 		.about{
-			margin:0 auto;
-			margin-top: 10%;
-			width: 90%;
+			margin:0;
+
 		}
 
 		.text{
@@ -129,7 +144,6 @@
 		.contact{
 			position:fixed;
 			margin-top: 40%;
-			margin-left: 5%;
 		}
 
 		.email{
