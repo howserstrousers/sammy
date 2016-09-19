@@ -80,6 +80,10 @@
 			background-color: rgba(178,54,54,.9);
 		}
 
+		a{
+			color: #6b2027;
+		}
+
 		.container{
 			margin: 0;
 			padding: 0;
