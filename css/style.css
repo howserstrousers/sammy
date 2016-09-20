@@ -77,11 +77,11 @@
 /*PHONE*/
 		
 		body{
-			background-color: rgba(178,54,54,.9);
+			background-color: #e9ede6;
 		}
 
 		a:link{
-			color: #6b2027;
+			color: #203a2d;
 		}
 
 		.container{
@@ -96,16 +96,17 @@
 			width:100%;
 			height:350px;
 			position:absolute;
-			z-index:-1000;
+			z-index:1000;
+			pointer-events: none;
 		}
 
 		@keyframes logoanimation{
 			/*
-			0% {left:0%;top:0%;right:100%;bottom:100%;color:color:#6b2027;}
+			0% {left:0%;top:0%;right:100%;bottom:100%;color:color:#203a2d;}
 			25%{left:100%;top:0%;right:0%;bottom:100%; color:rgb(178,54,54);}
-			50%{left:100%;top:100%;right:0%; bottom:0%; color:#6b2027;}
+			50%{left:100%;top:100%;right:0%; bottom:0%; color:#203a2d;}
 			75%{left:0%; top:100%; right:100%; bottom:0%; color:rgb(178,54,54);}
-			100% {left:0%; color:color:#6b2027;}
+			100% {left:0%; color:color:#203a2d;}
 			*/
 
 			0% {left:0%;top:0%;}
@@ -119,19 +120,32 @@
 		.homelogo{
 			font-family: 'Heebo', sans-serif;
 			font-weight: 700;
-			color:#6b2027;
+			color:#203a2d;
 			line-height: 0px;
 			position:relative;
+			opacity: .75;
+
+			animation-name: logoanimation;
+			animation-duration: 40s;
+			animation-iteration-count:infinite;
+			animation-timing-function: linear;
+
 			-webkit-animation-name: logoanimation;
-			-webkit-animation-duration: 16s;
+			-webkit-animation-duration: 40s;
 			-webkit-animation-iteration-count:infinite;
 			-webkit-animation-timing-function: linear;
 			
 		}
 
 		.about{
-			margin:0;
+			margin-top:10%; 			
+			margin:0 auto;
+			width:75%;
+		}
 
+		.about p{
+			line-height: 2.5rem;
+			margin-top: 10%;
 		}
 
 		.text{
@@ -139,29 +153,50 @@
 			font-family: 'Heebo', sans-serif;
 			text-transform: uppercase;
 			font-weight: 500;
-			color:#6b2027;
+			color:#203a2d;
 			font-size: 1.5rem;
 			line-height: 1.3rem;
 			
 		}
 
-		.about p{
-			line-height: 2.5rem;
+		.music{
+			margin:0 auto;
+			width:85%;
+			padding: 1%;
+			outline: .7px dashed #203a2d;
+		}
 
+		audio{
+			margin:0 auto;
+			width:100%;
+			
+		}
+
+		.afile{
+			margin:.5% auto;
+			outline: .7px dashed #203a2d;
 		}
 
 		.contact{
-			position:fixed;
-			top: 340px;
-			text-align: left;
+			margin:0 auto;
+			margin-top: 5%;
+			padding: 0 auto;
+			width: 75%;
+
+		}
+
+		.contact p{
+			width:75%;
 		}
 
 		.email{
+			margin: 0 auto;
 
 		}
 
 		.phone{
- 			color:#6b2027
+			margin: 0 auto;
+ 			color:#203a2d
 		}
 
 
