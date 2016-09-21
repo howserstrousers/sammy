@@ -85,14 +85,12 @@
 		}
 
 		.container{
-			margin: 0;
-			padding: 0;
-			height:auto;
-			width: auto;
+			margin: 0 auto;
+			padding: 0 auto;
+			height: auto;
 		}
 	
 		.saman{
-			margin: 0 auto;
 			width:100%;
 			height:400px;
 			position:fixed;
@@ -139,6 +137,41 @@
 			
 		}
 
+		.contact{
+			margin:0 auto;
+			width:100%;
+			height:auto;
+			font-family: 'Heebo', sans-serif;
+			text-transform: uppercase;
+			font-weight: 500;
+			color:#203a2d;
+			font-size: 1.4rem;
+			line-height: 0rem;
+			position:fixed;
+			margin-top:50%;
+			margin-left: 12.5%;
+			height:auto;
+			width:12px;
+			text-align: center;
+		}
+
+		.email{
+			left:3%;
+			top:25%;
+			-ms-transform: rotate(-90deg); /* IE 9 */
+    		-webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+   			transform: rotate(-90deg);
+
+		}
+
+		.phone{
+			left:10%;
+			top:2.5%;
+ 			-ms-transform: rotate(90deg); /* IE 9 */
+    		-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+   			transform: rotate(90deg);
+		}
+
 		.about{
 			margin:0 auto; 			
 			width:75%;
@@ -165,7 +198,7 @@
 
 		.music{
 			margin:0 auto;
-			width:85%;
+			width:75%;
 			padding: 1%;
 			outline: .7px dashed #203a2d;
 		}
@@ -179,28 +212,6 @@
 		.afile{
 			margin:.5% auto;
 			outline: .7px dashed #203a2d;
-		}
-
-		.contact{
-			margin:0 auto;
-			margin-top: 10%;
-			padding: 0 auto;
-			width: 75%;
-
-		}
-
-		.contact p{
-			width:75%;
-		}
-
-		.email{
-			margin: 0 auto;
-
-		}
-
-		.phone{
-			margin: 0 auto;
- 			color:#203a2d
 		}
 
 
