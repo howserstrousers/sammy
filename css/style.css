@@ -88,7 +88,7 @@
 	
 		.saman{
 			width:45px;
-			height:45px;
+			height:90px;
 			position:fixed;
 			top:0;
 			left:0;
@@ -106,9 +106,9 @@
 			*/
 
 			0% {left:3%;top:0%;}
-			25%{left:100%;top:0%;}
-			50%{left:100%;top:100%;}
-			75%{left:3%;top:100%;}
+			12.5%{left:100%;top:0%;}
+			%{left:100%;top:100%;}
+			%{left:3%;top:100%;}
 			100%{left:3%;top:0%;}
 			
 		}		
@@ -196,11 +196,15 @@
 			border: .7px solid #e0dd8c;
 		}
 		.song1 img{
-			width: 30%;
+			height: 80px;
 			float:left;
 			margin-left: 10%;
 			text-align: center;
 		}
+
+		.pause
+
+
 
 
 /*TABLET*/
