@@ -88,11 +88,10 @@
 	
 		.saman{
 			width:45px;
-			height:90px;
+			height:45px;
 			position:fixed;
 			top:0;
 			left:0;
-			z-index:1000;
 			pointer-events: none;
 		}
 
