@@ -9,6 +9,7 @@
 <!-- JQUERY -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js">
 		</script>
+
 <!-- CUSTOM SCRIPTS -->
 		<script src="js/scripts.js"></script>
 <!-- FONT -->
@@ -18,7 +19,24 @@
 		<body>
 
 		<div class="container">
-			
+
+			<!--
+
+			<div id="player">Click ME FRITZ</div>
+
+			<script>
+			var player = new Audio("/img/songs/test.mp3"); // or wherever this is being served from
+
+			$(document).ready(function() {
+			  $('#player').click(function(){
+			    player.play();
+			  }
+			});
+			</script>
+
+			-->
+
+
 			<div class="saman">
 				<div class="homelogo">
 					<h1>SW</h1>
@@ -35,7 +53,7 @@
 
 				<div class="song1 clearfix">
 						
-						<div class="play button">
+						<div id="player">
 							<img src="img/buttons/play.png">
 						</div>
 
