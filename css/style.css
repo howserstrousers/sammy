@@ -97,11 +97,11 @@
 
 		@keyframes logoanimation{
 			/*
-			0% {left:0%;top:0%;right:100%;bottom:100%;color:color:#e0dd8c;}
+			0% {left:0%;top:0%;right:100%;bottom:100%;color:color:#eae8e5;}
 			25%{left:100%;top:0%;right:0%;bottom:100%; color:rgb(178,54,54);}
-			50%{left:100%;top:100%;right:0%; bottom:0%; color:#e0dd8c;}
+			50%{left:100%;top:100%;right:0%; bottom:0%; color:#eae8e5;}
 			75%{left:0%; top:100%; right:100%; bottom:0%; color:rgb(178,54,54);}
-			100% {left:0%; color:color:#e0dd8c;}
+			100% {left:0%; color:color:#eae8e5;}
 			*/
 
 			0% {left:3%;top:0%;}
@@ -115,7 +115,7 @@
 		.homelogo{
 			font-family: 'Heebo', sans-serif;
 			font-weight: 700;
-			color:#e0dd8c;
+			color:#eae8e5;
 			line-height: 0px;
 			position:relative;
 			opacity: .75;
@@ -136,7 +136,7 @@
 			font-family: 'Heebo', sans-serif;
 			text-transform: uppercase;
 			font-weight: 500;
-			color:#e0dd8c;
+			color:#eae8e5;
 			font-size: 1.4rem;
 			line-height: 0rem;
 			position:fixed;
@@ -178,30 +178,34 @@
 			font-family: 'Heebo', sans-serif;
 			text-transform: uppercase;
 			font-weight: 500;
-			color:#e0dd8c;
+			color:#eae8e5;
 			font-size: 1.5rem;
 			line-height: 1.3rem;
 			
 		}
 
 		.music{
-			margin-left:25%;
+			margin-left:45%;
 		}
 
 		.song1{
+			padding:0;
+			padding-left:3%; 
 			padding-top: 3%;
 			padding-bottom: 3%;
-			background-color: #ffac8f;
-			border: .7px solid #e0dd8c;
-		}
-		.song1 img{
-			height: 80px;
-			float:left;
-			margin-left: 10%;
-			text-align: center;
+			background-color: #b3b8c9;
+			width: 35%;
 		}
 
-		.pause
+		.song1 img{
+			margin: 0 auto;
+
+			height: 80px;
+		}
+
+		.pause{
+			display: none;
+		}
 
 
 
