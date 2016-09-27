@@ -83,10 +83,6 @@
 		.container{
 			margin: 0 auto;
 			padding: 0 auto;
-			max-width: 300px;
-
-			overflow-y:visible;
-			overflow-x:none;  
 		}
 	
 		.saman{
@@ -138,7 +134,7 @@
 		.contact{
 			font-family: 'Heebo', sans-serif;
 			text-transform: uppercase;
-			font-weight: 500;
+			font-weight: 400;
 			color:#eae8e5;
 			font-size: 1.4rem;
 			line-height: 0rem;
@@ -171,45 +167,50 @@
 		}
 
 		.about p{
-			width:100%;
 			line-height: 2.5rem;
 			margin: 0 auto;
 			margin-bottom: 10%;
-			
 		}
 
 		.text{
 			font-family: 'Heebo', sans-serif;
 			text-transform: uppercase;
-			font-weight: 500;
+			font-weight: 400;
 			color:#eae8e5;
 			font-size: 1.5rem;
-			line-height: 1.3rem;	
+			line-height: 1.3rem;
+
+			/*
+			-webkit-text-shadow: 0px 0px 84px -17px rgba(234,232,229,0.77);
+			-moz-text-shadow: 0px 0px 84px -17px rgba(234,232,229,0.77);
+			text-shadow: 0px 0px 84px -17px rgba(234,232,229,0.77);
+			*/	
 		}
 
 		.music{
 			margin-left:40%;
 			margin-top:10%;
 			height:100%;
-			width:100%;
+
+
 		}
 
 		.song1{
 			padding:3%;
-			width: 15%;
+			width: 50%;
 			max-width: 150px;
+			/*
 			background-color: rgba(179, 184, 201, .6);
+			*/
 
-			-webkit-box-shadow: 0px 0px 84px -17px rgba(234,232,229,0.77);
-			-moz-box-shadow: 0px 0px 84px -17px rgba(234,232,229,0.77);
-			box-shadow: 0px 0px 84px -17px rgba(234,232,229,0.77);
+			
 		}
 
 		.music img{
 			margin: 0 auto;
 			height: 100%;
 			width: 100%;
-			opacity: 1
+			opacity: 1;
 		}
 
 		.pauser{
@@ -219,9 +220,10 @@
 		.description{
 
 			font-family: 'Heebo', sans-serif;
-			font-weight: 500;
+			font-weight: 400;
 			color:#eae8e5;
-			font-size: 1.4rem;
+			font-size: 1.2rem;
+			text-transform: uppercase;
 		}
 
 		@keyframes image1animation{
@@ -244,6 +246,8 @@
 		.image1{
 
 			max-width: 300px;
+
+			/*
    		   	
    		   	animation-name: image1animation;
 			animation-duration: 8s;
@@ -254,10 +258,11 @@
 			-webkit-animation-duration: 8s;
 			-webkit-animation-iteration-count:infinite;
 			-webkit-animation-timing-function: linear;
+			*/
 
 			position: fixed;
-			top:0;
-			right:0;
+			top:50%;
+			right:30%;
 			z-index: -1000;
 			width:35%;
 		}
