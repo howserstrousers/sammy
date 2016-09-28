@@ -131,22 +131,43 @@
 			
 		}
 
+		.c-hide{
+			font-family: 'Heebo', sans-serif;
+			text-transform: uppercase;
+			font-weight: 700;
+			color:#eae8e5;
+			font-size: 1.5rem;
+			line-height: 1rem;
+			letter-spacing: .6rem;
+			
+			position: fixed;
+			top:15%;
+			left:0;
+
+			width:12px;
+			left:10%;
+			-ms-transform: rotate(90deg);
+    		-webkit-transform: rotate(90deg);
+   			transform: rotate(90deg);
+
+		}
+
 		.contact{
 			font-family: 'Heebo', sans-serif;
 			text-transform: uppercase;
 			font-weight: 400;
 			color:#eae8e5;
 			font-size: 1.3rem;
-			letter-spacing: .3rem;
-			
+			line-height: 1rem;
 			position: fixed;
-			top:50%;
 			left:0;
+			display:none;
 		}
 
 		.email{
 			width:12px;
 			left:5%;
+			top:40%;
 			-ms-transform: rotate(90deg);
     		-webkit-transform: rotate(90deg);
    			transform: rotate(90deg);
@@ -154,7 +175,8 @@
 
 		.phone{
 			width:12px;
-			left:16%;
+			left:15%;
+			top:40%;
 			-ms-transform: rotate(90deg);
     		-webkit-transform: rotate(90deg);
    			transform: rotate(90deg);
