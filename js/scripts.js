@@ -33,6 +33,10 @@ window.onload = function() {
       invertY: false,
       scalarX: 20,
       scalarY: 20,
+      originX:.5,
+      originY:.5,
+      calibrateX:true,
+      calibrateY:true,
     });
 
   });

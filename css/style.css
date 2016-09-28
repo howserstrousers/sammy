@@ -186,7 +186,7 @@
 			width:75%;	
 			margin-left:25%;
 			margin-top:90px;
-
+			z-index: 100;
 		}
 
 		.about p{
@@ -276,7 +276,9 @@
 			left:23%;
 			width:77%;
 			position:fixed;
-			opacity: .4;
+			opacity:.4;
+			z-index: 0;
+			pointer-events:none;
 		}
 
 /* PARALLAX TEST*/
