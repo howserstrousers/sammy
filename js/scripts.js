@@ -42,8 +42,8 @@ window.onload = function() {
       // the value that is returned.
       if (xTilt == 0) {
         xTilt = -xTilt;
-      } else if (xTilt == -40) {
-        xTilt = -(xTilt + 80);
+      } else if (xTilt == -80) {
+        xTilt = -(xTilt + 160);
       }
 
       var backgroundPositionValue = yTilt + 'px ' + xTilt + "px";

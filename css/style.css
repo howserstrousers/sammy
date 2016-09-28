@@ -190,19 +190,17 @@
 
 		#background {
 			margin: 0 auto;
-			  padding-top: 100px;
-			  height: 568px;
-			  width: 320px;
-			  background-image: url('../img/pics/waves.png');
-			  background-size: 360px 608px;
-			  background-position: -20px -20px;
+			padding-top: 100px;
+			height: 100%;
+			width: 100%;
+			background-image: url('../img/pics/waves.png');
+			background-size: 110% 110%;
+			background-position: -100px -100px;
 		}
 
 		.foreground{
 			text-align: center;
-			 padding: 20px;
-			 background: rgba(255,255,255,0.2);
-			  border-radius: 18px;
+			padding: 100px;
 		}
 
 		.mbg{
