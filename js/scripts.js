@@ -25,7 +25,7 @@ window.onload = function() {
 
   });
 
-  var background = document.getElementByClassName('background');
+  var background = document.getElementById('background');
 
     window.addEventListener('deviceorientation', function(eventData) {
       // Retrieving the front/back tilting of the device and moves the
@@ -40,13 +40,13 @@ window.onload = function() {
 
       // Thi 'if' statement checks if the phone is upside down and corrects
       // the value that is returned.
-      if (xTilt &amp;gt; 0) {
+      if (xTilt == 0) {
         xTilt = -xTilt;
-      } else if (xTilt &amp;lt; -40) {
+      } else if (xTilt == -40) {
         xTilt = -(xTilt + 80);
       }
 
-      var backgroundPositionValue = yTilt + 'px ' + xtilt + "px";
+      var backgroundPositionValue = yTilt + 'px ' + xTilt + "px";
 
       background.style.backgroundPosition = backgroundPositionValue;
     }, false);
