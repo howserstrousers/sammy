@@ -188,6 +188,23 @@
 			*/	
 		}
 
+		.background {
+			margin: 0 auto;
+			  padding-top: 100px;
+			  height: 568px;
+			  width: 320px;
+			  background-image: url('../img/pics/waves.png');
+			  background-size: 360px 608px;
+			  background-position: -20px -20px;
+		}
+
+		.foreground{
+			text-align: center;
+			 padding: 20px;
+			 background: rgba(255,255,255,0.2);
+			  border-radius: 18px;
+		}
+
 		.mbg{
 			width:75%;
 			left:25%;

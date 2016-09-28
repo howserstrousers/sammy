@@ -25,26 +25,30 @@ window.onload = function() {
 
   });
 
-  if (window.DeviceOrientationEvent) {
-    console.log("DeviceOrientation is supported");
-    window.addEventListener('deviceorientation', function(eventData) {});
-  }
+  var background = document.getElementByClassName('background');
 
-  var LR = eventData.gamma;
-  var FB = eventData.beta;
-  var DIR = eventData.alpha;
+    window.addEventListener('deviceorientation', function(eventData) {
+      // Retrieving the front/back tilting of the device and moves the
+      // background in the opposite way of the tilt
 
-  deviceOrientationHandler(LR, FB, DIR);
-   
-  function deviceOrientationHandler(LR, FB, DIR) {
-  //for webkit browser
-  document.getElementById("waves").style.webkitTransform = "rotate("+ LR +"deg) rotate3d(1,0,0, "+ (FB*-1)+"deg)";
-   
-  //for HTML5 standard-compliance
-  document.getElementById("waves").style.transform = "rotate("+ LR +"deg) rotate3d(1,0,0, "+ (FB*-1)+"deg)";
-  }
+      var yTilt = Math.round((-eventData.beta + 90) * (40/180) - 40);
 
+      // Retrieve the side to side tilting of the device and move the
+      // background the opposite direction.
 
+      var xTilt = Math.round(-eventData.gamma * (20/180) - 20);
 
+      // Thi 'if' statement checks if the phone is upside down and corrects
+      // the value that is returned.
+      if (xTilt &amp;gt; 0) {
+        xTilt = -xTilt;
+      } else if (xTilt &amp;lt; -40) {
+        xTilt = -(xTilt + 80);
+      }
+
+      var backgroundPositionValue = yTilt + 'px ' + xtilt + "px";
+
+      background.style.backgroundPosition = backgroundPositionValue;
+    }, false);
 
 }
