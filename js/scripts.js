@@ -34,18 +34,15 @@ window.onload = function() {
   var background = document.getElementById('background2');
 
     window.addEventListener('deviceorientation', function(eventData) {
+      
+
       // Retrieving the front/back tilting of the device and moves the
       // background in the opposite way of the tilt
-
-      // The compass direction - will return a value between 0 and 360
-      //var zTilt = Math.round((-eventData))
-
-      var yTilt = Math.round(-eventData.beta  * (40/180) - 40); //was 40
+      var yTilt = Math.round(-eventData.beta  * (90/180) - 40); //was 40
 
       // Retrieve the side to side tilting of the device and move the
       // background the opposite direction.
-
-      var xTilt = Math.round(-eventData.gamma * (40/180) - 40); //was20
+      var xTilt = Math.round(-eventData.gamma * (90/180) - 40); //was20
 
       // Thi 'if' statement checks if the phone is upside down and corrects
       // the value that is returned.
