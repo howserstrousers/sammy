@@ -272,7 +272,7 @@
 			left:23%;
 			top:80px;
 			width:77%;
-			padding-top: 100%; /*makes image height fit*/
+			padding-top: 77%; /*makes image height fit*/
 			position:absolute;
 			background-image: url('../img/pics/cows.png');
 			background-size: 150% 150%;
@@ -282,8 +282,8 @@
 
 		.foreground2{
 			text-align: center;
-			padding: 20px;
-		}		}
+			padding: 100px;
+		}
 
 	/*
 		.mbg{
