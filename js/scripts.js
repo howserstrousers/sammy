@@ -40,7 +40,7 @@ window.onload = function() {
       // The compass direction - will return a value between 0 and 360
       //var zTilt = Math.round((-eventData))
 
-      var yTilt = Math.round((-eventData.beta  * (40/180) - 40); //was 40
+      var yTilt = Math.round(-eventData.beta  * (40/180) - 40); //was 40
 
       // Retrieve the side to side tilting of the device and move the
       // background the opposite direction.
