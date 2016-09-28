@@ -27,10 +27,18 @@ window.onload = function() {
         $(".contact").toggle();
       });
 
-
+    $('#background2').parallax({
+      RelativeInput:true,
+      invertX: false,
+      invertY: false,
+      scalarX: 20,
+      scalarY: 20,
+    });
 
   });
 
+
+/*PRE PARALLAX
   var background = document.getElementById('background2');
 
     window.addEventListener('deviceorientation', function(eventData) {
@@ -56,5 +64,6 @@ window.onload = function() {
 
       background.style.backgroundPosition = backgroundPositionValue;
     }, false);
+*/
 
 }

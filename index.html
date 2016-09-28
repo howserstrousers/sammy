@@ -12,6 +12,10 @@
 
 <!-- CUSTOM SCRIPTS -->
 		<script src="js/scripts.js"></script>
+
+<!-- PARALLAX -->
+		<script src="js/jquery.parallax.js"></script>
+
 <!-- FONT -->
 		<link href="https://fonts.googleapis.com/css?family=Heebo:400,700" rel="stylesheet">
 	</head>
@@ -44,22 +48,30 @@
 				</div>
 			</div>
 
+	<!--working parallax
 		<div id="background2">
 			<div class="foreground2">
 			</div>
 		</div>
+	-->
+
+		<div id="background2">
+			<li class="layer" data-depth="0.50">
+				<img src="img/pics/cows.png">
+			</li>
+		</div>
+
+<!--PARALLAX TEST
+
+	<ul id="scene">
+	  <li class="layer" data-depth="1.000"><img src="img/pics/cows.png"></li>
+	</ul>
+-->
 
 		<div class="about text">
 				<p>
 					Sammy Witte currently works as a music producer and engineer in Los Angeles.
 				</p>
-
-		<!--
-			<div class="mbg">
-				<img id="waves" src="img/pics/waves.png">
-			</div>
-
-		-->
 
 			<div class="music">
 				<div class="song1">
@@ -89,7 +101,7 @@
 		 	CONTACT
 		 </p>
 		</div>
-		
+
 		<div class="contact">
 
 
