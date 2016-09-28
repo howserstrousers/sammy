@@ -25,7 +25,7 @@ window.onload = function() {
 
   });
 
-  var background = document.getElementById('background');
+  var background = document.getElementById('background2');
 
     window.addEventListener('deviceorientation', function(eventData) {
       // Retrieving the front/back tilting of the device and moves the

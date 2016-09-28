@@ -161,9 +161,7 @@
 		}
 
 		.about{
-			width:75%;
-			margin-left:25%;
-			margin-top:25%; 			
+			width:100%;			
 		}
 
 		.about p{
@@ -208,7 +206,7 @@
 	*/
 
 
-		#background {
+		#background2 {
 			margin: 0 auto;
 			padding-top: 100px;
 			width:75%;
@@ -219,7 +217,7 @@
 			background-position: -100px -100px;
 		}
 
-		.foreground{
+		.foreground2{
 			text-align: center;
 			padding: 20px;
 		}
