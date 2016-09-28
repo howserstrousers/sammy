@@ -45,7 +45,7 @@ window.onload = function() {
       // Retrieve the side to side tilting of the device and move the
       // background the opposite direction.
 
-      var xTilt = Math.round(-eventData.gamma * (20/180) - 80); //was20
+      var xTilt = Math.round(-eventData.gamma * (180) - 80); //was20
 
       // Thi 'if' statement checks if the phone is upside down and corrects
       // the value that is returned.
